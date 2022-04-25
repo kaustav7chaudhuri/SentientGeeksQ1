@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CodeFirstApproachModelStoreContainer" CdmEntityContainer="CodeFirstApproachEntities">
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="CodeFirstApproachModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Employee_Name" ColumnName="Employee_Name" />
+          <ScalarProperty Name="Employee_Email" ColumnName="Employee_Email" />
+          <ScalarProperty Name="Employee_Address" ColumnName="Employee_Address" />
+          <ScalarProperty Name="Employee_Number" ColumnName="Employee_Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
